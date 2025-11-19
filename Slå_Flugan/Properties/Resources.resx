@@ -130,4 +130,10 @@
   <data name="geting2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\geting2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="wasp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wasp-SoundBible.com-863699866.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="punch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sharp Punch-SoundBible.com-1947392621.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

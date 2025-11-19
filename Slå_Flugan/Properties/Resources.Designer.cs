@@ -81,6 +81,15 @@ namespace Slå_Flugan.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream punch {
+            get {
+                return ResourceManager.GetStream("punch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Skärmbild_2025_11_10_152530 {
@@ -97,6 +106,15 @@ namespace Slå_Flugan.Properties {
             get {
                 object obj = ResourceManager.GetObject("transparentgeting", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream wasp {
+            get {
+                return ResourceManager.GetStream("wasp", resourceCulture);
             }
         }
     }

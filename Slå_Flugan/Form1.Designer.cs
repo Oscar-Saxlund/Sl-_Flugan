@@ -40,6 +40,7 @@
             geting5 = new PictureBox();
             geting6 = new PictureBox();
             timer2 = new System.Windows.Forms.Timer(components);
+            timer3 = new System.Windows.Forms.Timer(components);
             ((System.ComponentModel.ISupportInitialize)geting).BeginInit();
             ((System.ComponentModel.ISupportInitialize)geting1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)geting2).BeginInit();
@@ -172,6 +173,11 @@
             timer2.Interval = 500;
             timer2.Tick += timer2_Tick;
             // 
+            // timer3
+            // 
+            timer3.Interval = 2000;
+            timer3.Tick += timer3_Tick;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -214,5 +220,6 @@
         private PictureBox geting5;
         private PictureBox geting6;
         private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Timer timer3;
     }
 }
